@@ -1,11 +1,11 @@
-import StatementFileUploader from "./StatementFileUploader";
+import DragAndDropFile from "../component/DragAndDropFile";
 
 
 function ContentContainer() {
     return (
         <div>
             <h1>Upload Statement</h1>
-            <StatementFileUploader></StatementFileUploader>
+            <DragAndDropFile></DragAndDropFile>
         </div>
         )
 }

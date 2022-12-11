@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FileUploader } from "react-drag-drop-files";
 
 const fileTypes = ["csv"];
-
+// REMOVE
 function StatementFileUploader() {
     const [file, setFile] = useState(null);
     const handleChange = (file) => {
@@ -15,5 +15,3 @@ function StatementFileUploader() {
 }
 
 export default StatementFileUploader;
-
-

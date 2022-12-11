@@ -1,4 +1,11 @@
+@import url("style/block/button/button.css");
 
-.sidebar {
-    background: grey;
-}
+@import url("style/block/form/form.css");
+@import url("style/block/form/_type/form_type_upload.css");
+
+@import url("style/block/input/_type/input_type_file.css");
+
+@import url("style/block/label/label.css");
+@import url("style/block/label/_active/label_active.css");
+
+@import url("style/block/sidebar/sidebar.css");
